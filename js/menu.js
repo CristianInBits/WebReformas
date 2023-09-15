@@ -1,8 +1,8 @@
 const iconomenu = document.querySelector(".iconomenu");
 const menu = document.querySelector(".menu-navegacion");
 
-console.log(menu);
-console.log(iconomenu);
+// console.log(menu);
+// console.log(iconomenu);
 
 iconomenu.addEventListener("click", () => {
   menu.classList.toggle("spread");
