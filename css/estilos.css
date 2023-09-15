@@ -209,15 +209,81 @@ header {
     margin-bottom: 20px;
 }
 
-.cont-aptitudes img{
+.cont-aptitudes img {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
 
-.n-description{
+.n-description {
     display: inline-block;
     margin-top: 20px;
     width: 100%;
     font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+    background: #f2f2f2;
+    padding-bottom: 0.1px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us {
+    width: 40%;
+    color: #aac9d3;
+}
+
+.brand {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p {
+    font-weight: 500;
+}
+
+.social-media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #aac9d3;
+    border-radius: 50%;
+    text-align: center;
+    color: #aac9d3;
+}
+
+.social-media-icon:hover {
+    background-color: #aac9d3;
+    color: aqua;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #aac9d3;
+    margin-bottom: 60px;
 }
